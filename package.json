@@ -1,0 +1,57 @@
+{
+  "name": "mudsmith",
+  "version": "0.0.1",
+  "description": "Node.js Server Monitoring for awesome people.",
+  "bin" : {
+    "mudsmith" : "./mudsmith.main.js"
+  },
+  "main": "mudsmith.main.js",
+  "scripts": {
+    "test": "node mudsmith.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zngine/mudsmith.git"
+  },
+  "keywords": [
+    "server",
+    "monitor",
+    "deployment",
+    "management",
+    "admin"
+  ],
+  "author": "Zngine <developer@zngine.com>",
+  "contributors" : [
+    {
+      "name" : "Joe Mills",
+      "email" : "mills.joe@gmail.com",
+      "url" : "https://github.com/blargism"
+    },
+    {
+      "name" : "Pierce Moore",
+      "email" : "pierce@piercemoore.com",
+      "url" : "https://github.com/piercemoore"
+    }
+  ],
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "d3f11abd64c9a38e942debb7ba6026eac6ea629b",
+  "bugs" : {
+    "url" : "https://github.com/zngine/mudsmith/issues"
+  },
+  "dependencies" : {
+    "jake" : "*",
+    "async" : "*",
+    "backbone" : "*",
+    "underscore" : "*",
+    "should" : "*",
+    "supercli" : "*",
+    "progress" : "*",
+    "optimist" : "*",
+    "handlebars" : "*",
+    "uglify-js" : "*",
+    "mocha" : "*",
+    "winston" : "*",
+    "socket.io" : "*"
+  }
+}
