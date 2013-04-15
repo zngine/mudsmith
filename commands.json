@@ -1,0 +1,28 @@
+{
+  "common" : {
+    "uptime" : "uptime",
+    "ps aux | grep node"
+  },
+  "db" : {
+    //
+  },
+  "mongo" : {
+    //
+  }
+}
+
+/*
+  type : os.type(),
+  platform : os.platform(),
+  arch : os.arch(),
+  hostname : os.hostname(),
+  release : os.release(),
+  tmpdir : os.tmpdir(),
+  cpus : os.cpus().length,
+  cpuinfo : os.cpus(),
+  nics : os.networkInterfaces()
+  load : os.loadavg(),
+  totalmem : os.totalmem(),
+  freemem : os.freemem(),
+  uptime : os.uptime()
+*/
