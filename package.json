@@ -3,11 +3,11 @@
   "version": "0.0.2",
   "description": "Node.js Server Monitoring for awesome people.",
   "bin": {
-    "mudsmith": "./mudsmith.main.js"
+    "mudsmith": "./mudsmith.js"
   },
-  "main": "mudsmith.main.js",
+  "main": "mudsmith.js",
   "scripts": {
-    "test": "node mudsmith.test.js"
+    "test": "node ./test/mudsmith.test.js"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,8 @@
       "url": "https://github.com/piercemoore"
     }
   ],
-  "license": "BSD",
+  "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "d3f11abd64c9a38e942debb7ba6026eac6ea629b",
   "bugs": {
     "url": "https://github.com/zngine/mudsmith/issues"
   },
