@@ -1,6 +1,6 @@
 {
   "name": "mudsmith",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js Server Monitoring for awesome people.",
   "bin": {
     "mudsmith": "./mudsmith.js"
